@@ -6,7 +6,7 @@
 /* hero css start */
 
 .container {
-  /* height: 100vh; */
+  /* height: 80vh; */
   max-width: 1280px;
   margin: 0 auto;
 }
@@ -23,7 +23,7 @@
   font-size: 40px;
   font-weight: bold;
   letter-spacing: 3px;
-
+  font-family: serif;
   border-left: 3px solid orangered;
   padding: 6px;
   /* height: 200px; */
@@ -270,4 +270,25 @@ position: relative;
 /* corona application start */
 
 /* footer start */
+.footer-text{
+  margin-top: 200px;
+  text-align: center;
+  color: antiquewhite;
+  line-height: 60px;
+  padding: 30px;
+}
+.footer-text h1{
+  font-family: Georgia, serif;
+font-size: 30px;
+}
+.footer-text h4{
+  font-family: Georgia, serif;
+}
+.foot-bg{
+  background: #090909;
+  height: 200px;
+}
+.footer-span{
+  color: red;
+}
 /* footer end */
