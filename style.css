@@ -41,7 +41,7 @@
   /* margin-left: 90px; */
 }
 span {
-  color: orangered;
+  color: #FFAD5A;
 }
 .btn {
   background-color: rgb(244, 57, 57);
@@ -171,3 +171,45 @@ span {
   height: 65vh;
 }
 /* about section css end */
+.community-text{
+  margin-top: 80px;
+ 
+}
+.community-text h1{
+  font-size: 35px;
+  line-height: 40px;
+}
+.community-text p{
+  text-align: left;
+}
+.global-community{
+  display: flex;
+  justify-content:space-between;
+}
+
+.community-first-img img{
+  width: 400px;
+  height: 400px;
+}
+.community-first-img{
+  position: absolute;
+}
+.community-second-img img{
+  width: 200px;
+  height: 200px;
+  position: relative;
+  margin-top: 270px;
+  margin-left: 280px;
+  z-index: -1;
+  
+}
+
+
+
+
+
+
+.corona-first-img img{
+  height: 542px;
+  width: 338px;
+}
