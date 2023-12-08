@@ -2,6 +2,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: "Josefin Sans", sans-serif;
 }
 /* hero css start */
 
@@ -23,7 +24,7 @@
   font-size: 60px;
   font-weight: bold;
   letter-spacing: 3px;
-  
+
   border-left: 3px solid orangered;
   padding: 6px;
   /* height: 200px; */
@@ -31,7 +32,7 @@
   /* left: 50%; */
 }
 .nav-text p {
-  font-size:20px;
+  font-size: 20px;
 }
 .nav-img {
   /* margin-right: 190px; */
@@ -42,7 +43,7 @@
   /* margin-left: 90px; */
 }
 span {
-  color: #FFAD5A;
+  color: #ffad5a;
 }
 .btn {
   background-color: rgb(244, 57, 57);
@@ -65,7 +66,7 @@ span {
   /* height: 800px;
     width:100% ; */
   display: flex;
-  justify-content:space-between;
+  justify-content: space-between;
   padding: px;
   /* margin: 15px; */
   /* margin-left: 120px; */
@@ -109,10 +110,11 @@ span {
 }
 .s-text {
   text-align: center;
-  font-size: 35px;
+  font-size: 45px;
   font-weight: bolder;
   margin-bottom: 30px;
 }
+
 .dotted-img {
   background-image: url(./images/person/Group\ 57403.png);
   background-repeat: no-repeat;
@@ -127,46 +129,41 @@ span {
 
 /* about section css stard */
 
-.about-section{
+.about-section {
   display: flex;
   gap: 250px;
 }
 
-.first-img{
+.first-img {
   width: 40%;
   position: absolute;
 }
-.first-img img{
+.first-img img {
   height: 400px;
   width: 400px;
-
-
 }
-.second-img img{
+.second-img img {
   height: 227px;
   width: 227px;
- 
-  
- 
- 
 }
-.second-img{
+.second-img {
   position: relative;
   right: 80px;
   z-index: -1;
   top: 72px;
   padding-top: -200px;
 }
-.about-text{
+.about-text {
   height: 630px;
   width: 654;
   margin-top: 60px;
 }
-.about-text h1{
+.about-text h1 {
   line-height: 35px;
-  font-size: 35px;
+  font-size: 45px;
+  line-height: 50px;
 }
-.dotted-img2{
+.dotted-img2 {
   background-image: url(./images/person/Group\ 57403.png);
   background-repeat: no-repeat;
   background-size: contain;
@@ -176,124 +173,117 @@ span {
   height: 65vh;
 }
 /* about section css end */
-.community-text{
+.community-text {
   margin-top: 80px;
- 
 }
-.community-text h1{
-  font-size: 35px;
+.community-text h1 {
+  font-size: 45px;
   line-height: 40px;
+  font-family: "Kalnia", serif;
 }
-.community-text p{
+.community-text p {
   text-align: left;
 }
-.global-community{
+.global-community {
   display: flex;
-  justify-content:space-between;
+  justify-content: space-between;
 }
 
-.community-first-img img{
+.community-first-img img {
   width: 400px;
   height: 400px;
 }
-.community-first-img{
+.community-first-img {
   position: absolute;
 }
-.community-second-img img{
+.community-second-img img {
   width: 200px;
   height: 200px;
   position: relative;
   margin-top: 270px;
   margin-left: 280px;
   z-index: -1;
-  
 }
 
-
 /* corona application start */
-.corona-heading-tag{
+.corona-heading-tag {
   text-align: center;
-  font-size: 30px;
-  font-family:sans-serif;
+  font-size: 45px;
+  font-family: sans-serif;
   padding: 20px;
   margin-bottom: 30px;
 }
-.corona-text{
+.corona-text {
   display: flex;
   justify-content: space-between;
-
 }
-.corona-first-img{
+.corona-first-img {
   position: absolute;
   z-index: 1;
   margin-left: 70px;
   margin-top: 20px;
-  
 }
-.corona-first-img img{
+.corona-first-img img {
   height: 542px;
   width: 338px;
 }
-.corona-background-img1 img{
+.corona-background-img1 img {
   width: 147px;
   height: 147px;
 }
-.corona-background-img1{
+.corona-background-img1 {
   position: relative;
-  
+
   margin-left: 60px;
 }
-.corona-background-img2 img{
+.corona-background-img2 img {
   width: 77px;
   height: 77px;
 }
-.corona-background-img2{
+.corona-background-img2 {
   position: relative;
   margin-top: 330px;
   margin-left: 70px;
-  
 }
-.corona-background-img3 img{
+.corona-background-img3 img {
   width: 77px;
   height: 77px;
 }
-.corona-background-img3{
-position: relative;
+.corona-background-img3 {
+  position: relative;
   margin-left: 320px;
-  margin-top:-200px;
-  display:block
-
+  margin-top: -200px;
+  display: block;
 }
-.corona-right-text{
+.corona-right-text {
   margin-top: 140px;
   margin-left: 200px;
 }
-.corona-right-text h1{
+.corona-right-text h1 {
   font-size: 45px;
-  font-family: sans-serif;
 }
 /* corona application start */
 
 /* footer start */
-.footer-text{
+.footer-text {
   margin-top: 200px;
   text-align: center;
-  color: antiquewhite;
+  color: rgb(255, 172, 64);
   line-height: 60px;
   padding: 30px;
 }
-.footer-text h1{
+.footer-text h1 {
   font-family: Georgia, serif;
-font-size: 30px;
+  font-size: 30px;
 }
-.footer-text h4{
+.footer-text h4 {
   font-family: Georgia, serif;
 }
-.foot-bg{
+.foot-bg {
   background: #090909;
   height: 200px;
 }
-.footer-span{
+.footer-span {
   color: red;
 }
 /* footer end */
