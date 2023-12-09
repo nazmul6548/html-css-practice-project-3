@@ -277,11 +277,11 @@ span {
 
 /* footer start */
 .footer-text {
-  margin-top: 200px;
+  /* padding-top: 900px; */
   text-align: center;
   color: rgb(255, 172, 64);
-  line-height: 60px;
-  padding: 30px;
+  line-height: 40px;
+  padding: 70px;
 }
 .footer-text h1 {
   font-family: Georgia, serif;
@@ -292,25 +292,128 @@ span {
 }
 .foot-bg {
   background: #090909;
-  /* height: 200px; */
+  margin-top: 200px;
+  
+}
+.footer{
+  background-color: #0000;
 }
 .footer-span {
   color: red;
 }
 /* footer end */
 @media  (max-width: 600px){
+
 .navbar{
   flex-direction: column-reverse;
   align-items: center;
+  display: flex;
+  column-gap: 100px;
   }
-  .nav-img{
-    text-align: center;
+  .nav-text{
+  display: flex;
+  /* align-items: baseline; */
+  align-items: center;
+  text-align: center;
+
     
+  }
+  .nav-text h1{
+    font-size: 40px;
+  }
+  .nav-text p{
+    font-size: 15px;
   }
   .nav-img img{
     height: auto;
     width:300px ;
   }
+  .s-text h1{
+    font-size: 40px;
+  }
+  .services-text{
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    text-align: center;
+  }
+.about-section{
+  flex-direction: column;
+}
+
+.about-img{
+
+  padding: 20px;
+  display: flex;
+  padding-right: 150px;
+  
+  
+}
+.first-img img{
+  width: 360px;
+ 
+}
+.community-text{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+.about-text{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  
+
+}
+.global-community{
+  flex-direction: column;
+}
+.community-img{
+  /*  */
+  display: flex;
+ padding-left: 50px;
+}
+.corona-application{
+  display: flex;
+  flex-direction: column;
+}
+.community-text p{
+  text-align: center;
+}
+.corona-text{
+  display: flex;
+  flex-direction: column;
+}
+.corona-heading-tag h1{
+  font-size: 40px;
+}
+.corona-right-text{
+  
+  flex-direction: column;
+  text-align: center;
+  margin-left: 6px
+  
+  
+  /* padding-right: 200px; */
+}
+.footer-text h1{
+  font-size: 15px;
+}
+.footer-text h4{
+  font-size: 10px;
+}
+.footer{
+  display: flex;
+  flex-direction: column;
+
+}
+.footer-text{
+  padding: 10px;
+}
+
+
 }
 
 
