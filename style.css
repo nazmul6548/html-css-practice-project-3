@@ -371,12 +371,18 @@ span {
   flex-direction: column;
 }
 .community-img{
-  /*  */
+
   display: flex;
  padding-left: 50px;
+ 
+ 
+}
+.community-second-img img{
+  display: none;
 }
 .corona-application{
   display: flex;
+  padding-top: 450px;
   flex-direction: column;
 }
 .community-text p{
