@@ -425,18 +425,3 @@ span {
 
 
 
-/* @media (max-width:668px) {
-  .first-section {
-      flex-direction: column-reverse;
-      align-items: center;
-  }
-  
-  .left-side {
-      align-items: center;
-      text-align: center;
-      width: 100%;
-  }
-  .right-side{
-      width: 100%;
-  }
-} */
