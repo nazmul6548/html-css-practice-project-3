@@ -377,6 +377,9 @@ span {
  
  
 }
+.community-img img{
+  width: 400px;
+}
 .community-second-img img{
   display: none;
 }
@@ -421,7 +424,6 @@ span {
 
 
 }
-
 
 
 
